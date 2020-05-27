@@ -17,16 +17,16 @@
 */
 
 // Bootstrap Functions
-@import "../../../node_modules/bootstrap/scss/functions";
+@import "bootstrap/scss/_functions.scss";
 
 // Theme Variables
-@import "argon-design-system/variables";
+@import "./argon-design-system/variables";
 
 // Bootstrap Core
-@import "../../../node_modules/bootstrap/scss/bootstrap";
+@import "bootstrap/scss/bootstrap";
 
 // Theme Core
-@import "argon-design-system/theme";
+@import "./argon-design-system/theme";
 
 // React Differences
-@import "react/react-differences";
+@import "./react/react-differences";
